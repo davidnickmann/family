@@ -1,0 +1,43 @@
+@media only screen and (max-width: 870px)
+header nav > ul {
+    padding-top: 15px;
+    display: none;
+    {
+
+@media screen and (min-width: 960px) {
+  body{
+    padding-top: 0;
+  }
+  .nav {
+    overflow: hidden;
+  }
+  .logo {
+    float: left;
+  }
+  .mainmenu {
+    text-align: center;
+    float: right;
+    display: block;
+  }
+  .mainmenu li {
+    display: inline-block;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+
+
+  .icon {
+  }
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  .logo, .mainmenu {
+    float: none;
+  }
+}
